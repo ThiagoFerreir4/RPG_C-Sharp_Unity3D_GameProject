@@ -1,6 +1,9 @@
-﻿using UnityEngine;
+﻿using RPG.Movement;
+using UnityEngine;
 
-public class PlayerController : MonoBehaviour {
+namespace RPG.Control
+{
+    public class PlayerController : MonoBehaviour {
 
     private void Update() {
          if (Input.GetMouseButton(0))
@@ -19,4 +22,5 @@ public class PlayerController : MonoBehaviour {
             GetComponent<Mover>().MoveTo(hit.point);
         }
     }
+}
 }
