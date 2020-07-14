@@ -465,6 +465,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6088856090335640746, guid: fe14e10c7c870ac43955e7bfb5003df9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fe14e10c7c870ac43955e7bfb5003df9, type: 3}
 --- !u!1001 &461515032
@@ -862,6 +867,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy
       objectReference: {fileID: 0}
+    - target: {fileID: 6088856090335640746, guid: fe14e10c7c870ac43955e7bfb5003df9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fe14e10c7c870ac43955e7bfb5003df9, type: 3}
 --- !u!1001 &1237776462
@@ -1077,6 +1087,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 4322675922834870823, guid: 50649334e57933c4f9d3d7737caa7d8f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 4322675922834870827, guid: 50649334e57933c4f9d3d7737caa7d8f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1243,6 +1258,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Enemy (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6088856090335640746, guid: fe14e10c7c870ac43955e7bfb5003df9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fe14e10c7c870ac43955e7bfb5003df9, type: 3}
