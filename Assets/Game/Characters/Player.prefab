@@ -24,6 +24,11 @@ PrefabInstance:
       propertyPath: health
       value: 100
       objectReference: {fileID: 0}
+    - target: {fileID: 1246984209708569841, guid: 4696f22809091944c953c9a1107f548b,
+        type: 3}
+      propertyPath: healthPoints
+      value: 200
+      objectReference: {fileID: 0}
     - target: {fileID: 1672481800486979955, guid: 4696f22809091944c953c9a1107f548b,
         type: 3}
       propertyPath: m_RootOrder
@@ -98,6 +103,11 @@ PrefabInstance:
         type: 3}
       propertyPath: weaponRange
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8504431096998136728, guid: 4696f22809091944c953c9a1107f548b,
+        type: 3}
+      propertyPath: weaponDamage
+      value: 15
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114535391974763354, guid: 4696f22809091944c953c9a1107f548b, type: 3}
