@@ -365,6 +365,8 @@ MonoBehaviour:
     m_OnCameraLive:
       m_PersistentCalls:
         m_Calls: []
+      m_TypeName: Cinemachine.CinemachineBrain+VcamActivatedEvent, Cinemachine, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
   m_LegacyBlendHint: 0
   m_ComponentOwner: {fileID: 388293153}
 --- !u!4 &255091581
@@ -496,7 +498,6 @@ Terrain:
   m_MaterialTemplate: {fileID: 0}
   m_BakeLightProbesForTrees: 1
   m_PreserveTreePrototypeLayers: 0
-  m_DeringLightProbesForTrees: 0
   m_ScaleInLightmap: 0.256
   m_LightmapParameters: {fileID: 15203, guid: 0000000000000000f000000000000000, type: 0}
   m_GroupingID: 0
@@ -622,6 +623,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 818461875}
     m_Modifications:
+    - target: {fileID: 6088856090335640746, guid: fe14e10c7c870ac43955e7bfb5003df9,
+        type: 3}
+      propertyPath: m_Name
+      value: Enemy (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6088856090335640746, guid: fe14e10c7c870ac43955e7bfb5003df9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 863796295858252053, guid: fe14e10c7c870ac43955e7bfb5003df9,
         type: 3}
       propertyPath: m_Radius
@@ -2042,16 +2053,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6088856090335640746, guid: fe14e10c7c870ac43955e7bfb5003df9,
-        type: 3}
-      propertyPath: m_Name
-      value: Enemy (2)
-      objectReference: {fileID: 0}
-    - target: {fileID: 6088856090335640746, guid: fe14e10c7c870ac43955e7bfb5003df9,
-        type: 3}
-      propertyPath: m_TagString
-      value: Untagged
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fe14e10c7c870ac43955e7bfb5003df9, type: 3}
 --- !u!4 &426181713 stripped
@@ -2728,6 +2729,8 @@ MonoBehaviour:
     m_OnCameraLive:
       m_PersistentCalls:
         m_Calls: []
+      m_TypeName: Cinemachine.CinemachineBrain+VcamActivatedEvent, Cinemachine, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
   m_LegacyBlendHint: 0
   m_ComponentOwner: {fileID: 1275395501}
 --- !u!4 &875256086
@@ -2884,6 +2887,8 @@ MonoBehaviour:
     m_OnCameraLive:
       m_PersistentCalls:
         m_Calls: []
+      m_TypeName: Cinemachine.CinemachineBrain+VcamActivatedEvent, Cinemachine, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
   m_LegacyBlendHint: 0
   m_ComponentOwner: {fileID: 1550850252}
 --- !u!4 &1092289162
@@ -2893,7 +2898,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1092289160}
-  m_LocalRotation: {x: 0.011670639, y: 0.9592426, z: -0.2794871, w: 0.04005542}
+  m_LocalRotation: {x: 0.011670629, y: 0.9592426, z: -0.27948707, w: 0.040055387}
   m_LocalPosition: {x: 6.9, y: 6.37, z: -16.23}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -2971,6 +2976,8 @@ MonoBehaviour:
     m_OnCameraLive:
       m_PersistentCalls:
         m_Calls: []
+      m_TypeName: Cinemachine.CinemachineBrain+VcamActivatedEvent, Cinemachine, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
   m_LegacyBlendHint: 0
   m_ComponentOwner: {fileID: 471736743}
 --- !u!4 &1148798910
@@ -2995,6 +3002,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 818461875}
     m_Modifications:
+    - target: {fileID: 6088856090335640746, guid: fe14e10c7c870ac43955e7bfb5003df9,
+        type: 3}
+      propertyPath: m_Name
+      value: Enemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 6088856090335640746, guid: fe14e10c7c870ac43955e7bfb5003df9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 863796295858252053, guid: fe14e10c7c870ac43955e7bfb5003df9,
         type: 3}
       propertyPath: m_Radius
@@ -4415,16 +4432,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6088856090335640746, guid: fe14e10c7c870ac43955e7bfb5003df9,
-        type: 3}
-      propertyPath: m_Name
-      value: Enemy
-      objectReference: {fileID: 0}
-    - target: {fileID: 6088856090335640746, guid: fe14e10c7c870ac43955e7bfb5003df9,
-        type: 3}
-      propertyPath: m_TagString
-      value: Untagged
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fe14e10c7c870ac43955e7bfb5003df9, type: 3}
 --- !u!4 &1182082660 stripped
@@ -4687,8 +4694,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1276765002}
-  m_LocalRotation: {x: -0.21274261, y: 0.39096096, z: -0.10768445, w: 0.9134407}
-  m_LocalPosition: {x: 41.208855, y: -1.2236423, z: 27.384003}
+  m_LocalRotation: {x: 0.1370354, y: -0.3789659, z: 0.05685289, w: 0.9134407}
+  m_LocalPosition: {x: -18.615105, y: -2.509004, z: 23.836462}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 235459801}
@@ -4775,9 +4782,13 @@ MonoBehaviour:
   m_CameraCutEvent:
     m_PersistentCalls:
       m_Calls: []
+    m_TypeName: Cinemachine.CinemachineBrain+BrainEvent, Cinemachine, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
   m_CameraActivatedEvent:
     m_PersistentCalls:
       m_Calls: []
+    m_TypeName: Cinemachine.CinemachineBrain+VcamActivatedEvent, Cinemachine, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
 --- !u!1 &1336218303
 GameObject:
   m_ObjectHideFlags: 0
@@ -4792,6 +4803,8 @@ GameObject:
   - component: {fileID: 1336218307}
   - component: {fileID: 1336218308}
   - component: {fileID: 1336218309}
+  - component: {fileID: 1336218311}
+  - component: {fileID: 1336218310}
   m_Layer: 2
   m_Name: Intro Sequence
   m_TagString: Untagged
@@ -4897,6 +4910,30 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 722ddacb71e1b054fbc86b0b3b28a06d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1336218310
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1336218303}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee5d71ab14ec8c148acd5c5259b1c435, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1336218311
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1336218303}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44846aca48c8cea46b7da10c975f8f56, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &1392354822
@@ -6564,6 +6601,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 818461875}
     m_Modifications:
+    - target: {fileID: 6088856090335640746, guid: fe14e10c7c870ac43955e7bfb5003df9,
+        type: 3}
+      propertyPath: m_Name
+      value: Enemy (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6088856090335640746, guid: fe14e10c7c870ac43955e7bfb5003df9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 863796295858252053, guid: fe14e10c7c870ac43955e7bfb5003df9,
         type: 3}
       propertyPath: m_Radius
@@ -7984,16 +8031,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6088856090335640746, guid: fe14e10c7c870ac43955e7bfb5003df9,
-        type: 3}
-      propertyPath: m_Name
-      value: Enemy (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 6088856090335640746, guid: fe14e10c7c870ac43955e7bfb5003df9,
-        type: 3}
-      propertyPath: m_TagString
-      value: Untagged
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fe14e10c7c870ac43955e7bfb5003df9, type: 3}
 --- !u!4 &1809294413 stripped
@@ -8134,6 +8171,8 @@ MonoBehaviour:
     m_OnCameraLive:
       m_PersistentCalls:
         m_Calls: []
+      m_TypeName: Cinemachine.CinemachineBrain+VcamActivatedEvent, Cinemachine, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
   m_LegacyBlendHint: 0
   m_ComponentOwner: {fileID: 729686573}
 --- !u!1001 &2075751935
@@ -8277,6 +8316,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 755784827}
     m_Modifications:
+    - target: {fileID: 8381116547304161848, guid: b4db4352a14dd424aae9ac89a3cc1828,
+        type: 3}
+      propertyPath: m_Name
+      value: Patrol Path
+      objectReference: {fileID: 0}
     - target: {fileID: 8381116546531103223, guid: b4db4352a14dd424aae9ac89a3cc1828,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8306,11 +8350,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.z
       value: -22.7
-      objectReference: {fileID: 0}
-    - target: {fileID: 8381116547304161848, guid: b4db4352a14dd424aae9ac89a3cc1828,
-        type: 3}
-      propertyPath: m_Name
-      value: Patrol Path
       objectReference: {fileID: 0}
     - target: {fileID: 8381116547304161849, guid: b4db4352a14dd424aae9ac89a3cc1828,
         type: 3}
